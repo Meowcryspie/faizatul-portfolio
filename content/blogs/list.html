@@ -42,11 +42,9 @@
   <script>
     const blogContainer = document.getElementById("blog-posts");
 
-    fetch("https://api.allorigins.win/get?url=" + encodeURIComponent("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts"))
+    fetch("/.netlify/functions/blogProxy")
       .then(response => response.json())
-      .then(data => {
-        const posts = JSON.parse(data.contents);
-
+      .then(posts => {
         if (!posts.length) {
           blogContainer.innerHTML = "<p>No blog posts found.</p>";
           return;
