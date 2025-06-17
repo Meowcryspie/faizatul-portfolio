@@ -1,9 +1,9 @@
-const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
+import fetch from "node-fetch";
 
-exports.handler = async function () {
+export async function handler(event, context) {
   try {
     const response = await fetch("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts");
-    const body = await response.text();
+    const data = await response.text();
 
     return {
       statusCode: 200,
@@ -11,12 +11,15 @@ exports.handler = async function () {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "application/json"
       },
-      body: body
+      body: data
     };
   } catch (err) {
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: "Fetch failed", details: err.message })
+      body: JSON.stringify({
+        error: "Fetch failed",
+        details: err.message
+      })
     };
   }
-};
+}
