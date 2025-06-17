@@ -378,33 +378,39 @@
   <div id="blog-posts">Loading...</div>
 
   <script>
-    const blogContainer = document.getElementById("blog-posts");
+  const blogContainer = document.getElementById("blog-posts");
 
-    fetch("/.netlify/functions/blogProxy")
-      .then(response => response.json())
-      .then(posts => {
-        if (!posts.length) {
-          blogContainer.innerHTML = "<p>No blog posts found.</p>";
-          return;
-        }
+  fetch("/.netlify/functions/blogProxy")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Function error: " + response.statusText);
+      }
+      return response.json();
+    })
+    .then(posts => {
+      if (!Array.isArray(posts) || posts.length === 0) {
+        blogContainer.innerHTML = "<p>No blog posts found.</p>";
+        return;
+      }
 
-        let html = "<ul>";
-        posts.forEach(post => {
-          html += `
-            <li>
-              <a href="${post.link}" target="_blank">${post.title.rendered}</a>
-              <p>${post.excerpt.rendered}</p>
-            </li>`;
-        });
-        html += "</ul>";
-
-        blogContainer.innerHTML = html;
-      })
-      .catch(error => {
-        console.error("Error fetching blog posts:", error);
-        blogContainer.innerHTML = "<p>Failed to load posts.</p>";
+      let html = "<ul>";
+      posts.forEach(post => {
+        html += `
+          <li>
+            <a href="${post.link}" target="_blank">${post.title.rendered}</a>
+            <p>${post.excerpt.rendered}</p>
+          </li>`;
       });
-  </script>
+      html += "</ul>";
+
+      blogContainer.innerHTML = html;
+    })
+    .catch(error => {
+      console.error("Error fetching blog posts:", error);
+      blogContainer.innerHTML = "<p>Failed to load posts.</p>";
+    });
+</script>
+
 </body>
 </html>
 
