@@ -1,9 +1,11 @@
+[functions]
+node_bundler = "esbuild"
+directory = "netlify/functions"  
+
 [build]
   publish = "public"
   command = "hugo"
 
 [build.environment]
   HUGO_VERSION = "0.147.0"
-
-[functions]
-  directory = "netlify/functions"
+  NODE_VERSION = "18"
