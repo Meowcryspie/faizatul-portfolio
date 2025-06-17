@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Blog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My WordPress Blog</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; }
-    ul { padding-left: 0; list-style: none; }
-    li { margin-bottom: 2rem; }
-    a { font-size: 1.2rem; font-weight: bold; color: #007acc; text-decoration: none; }
-    p { margin-top: 0.5rem; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #007acc;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    a {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #007acc;
+      text-decoration: none;
+    }
+    p {
+      margin-top: 0.5rem;
+    }
   </style>
 </head>
 <body>
@@ -18,9 +42,11 @@
   <script>
     const blogContainer = document.getElementById("blog-posts");
 
-    fetch("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts")
+    fetch("https://api.allorigins.win/get?url=" + encodeURIComponent("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts"))
       .then(response => response.json())
-      .then(posts => {
+      .then(data => {
+        const posts = JSON.parse(data.contents);
+
         if (!posts.length) {
           blogContainer.innerHTML = "<p>No blog posts found.</p>";
           return;
@@ -35,6 +61,7 @@
             </li>`;
         });
         html += "</ul>";
+
         blogContainer.innerHTML = html;
       })
       .catch(error => {

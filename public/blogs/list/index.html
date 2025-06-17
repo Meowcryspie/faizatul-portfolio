@@ -31,7 +31,7 @@
 <meta property="og:url" content="http://localhost:1313/blogs/list/">
   <meta property="og:site_name" content="Portfolio">
   <meta property="og:title" content="Portfolio">
-  <meta property="og:description" content="&lt;!DOCTYPE html&gt;My BlogMy WordPress Blog PostsLoading...">
+  <meta property="og:description" content="&lt;!DOCTYPE html&gt;My WordPress BlogMy WordPress Blog PostsLoading...">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
@@ -39,7 +39,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Portfolio">
-  <meta name="twitter:description" content="&lt;!DOCTYPE html&gt;My BlogMy WordPress Blog PostsLoading...">
+  <meta name="twitter:description" content="&lt;!DOCTYPE html&gt;My WordPress BlogMy WordPress Blog PostsLoading...">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -339,14 +339,38 @@
           <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Blog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My WordPress Blog</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; }
-    ul { padding-left: 0; list-style: none; }
-    li { margin-bottom: 2rem; }
-    a { font-size: 1.2rem; font-weight: bold; color: #007acc; text-decoration: none; }
-    p { margin-top: 0.5rem; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #007acc;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    a {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #007acc;
+      text-decoration: none;
+    }
+    p {
+      margin-top: 0.5rem;
+    }
   </style>
 </head>
 <body>
@@ -356,9 +380,11 @@
   <script>
     const blogContainer = document.getElementById("blog-posts");
 
-    fetch("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts")
+    fetch("https://api.allorigins.win/get?url=" + encodeURIComponent("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts"))
       .then(response => response.json())
-      .then(posts => {
+      .then(data => {
+        const posts = JSON.parse(data.contents);
+
         if (!posts.length) {
           blogContainer.innerHTML = "<p>No blog posts found.</p>";
           return;
@@ -373,6 +399,7 @@
             </li>`;
         });
         html += "</ul>";
+
         blogContainer.innerHTML = html;
       })
       .catch(error => {
@@ -501,34 +528,6 @@
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/blogs/_math/">
-                        <img src="/images/mathjax.png" class="card-img-top" alt="Render Math With Mathjax">
-                    </a>
-                </div>
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/_math/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Render Math With Mathjax">Render Math With Mathjax</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p><h2 id="mathjax">Mathjax</h2>
-<p>Math equations can be rendered using <a href="https://www.mathjax.org">Mathjax</a> syntax with AMS symbol support.</p>
-<p>Optionally enable this on a per-page basis by adding <code>mathjax: true</code> to your frontmatter.</p>
-<p>Then, use <code>$$ ... $$</code> on a line by itself to render a block equation:</p>
-<p>$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p></p>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">Dec 9, 2022</span>
-                    <a href="/blogs/_math/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-header">
                     <a href="/blogs/_markdown-syntax/">
                         <img src="/images/post.jpg" class="card-img-top" alt="Markdown Syntax">
                     </a>
@@ -573,6 +572,31 @@
                 <div class="mt-auto card-footer">
                     <span class="float-start">Apr 3, 2021</span>
                     <a href="/blogs/_emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/placeholder-text/">
+                        <img src="/images/post.jpg" class="card-img-top" alt="Placeholder Text">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/placeholder-text/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Placeholder Text">Placeholder Text</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
+<p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Apr 3, 2021</span>
+                    <a href="/blogs/placeholder-text/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
