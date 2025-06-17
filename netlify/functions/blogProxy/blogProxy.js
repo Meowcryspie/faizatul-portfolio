@@ -1,7 +1,12 @@
 export async function handler(event, context) {
   try {
     const res = await fetch("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts");
-    const data = await res.text();
+
+    if (!res.ok) {
+      throw new Error(`Upstream error: ${res.status}`);
+    }
+
+    const data = await res.json(); // ✅ Parse JSON directly
 
     return {
       statusCode: 200,
@@ -9,7 +14,7 @@ export async function handler(event, context) {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "application/json"
       },
-      body: data
+      body: JSON.stringify(data) // ✅ Return stringified JSON
     };
   } catch (err) {
     return {
