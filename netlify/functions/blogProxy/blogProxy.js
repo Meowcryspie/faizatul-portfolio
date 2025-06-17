@@ -1,9 +1,7 @@
-import fetch from "node-fetch";
-
 export async function handler(event, context) {
   try {
-    const response = await fetch("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts");
-    const data = await response.text();
+    const res = await fetch("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts");
+    const data = await res.text();
 
     return {
       statusCode: 200,
