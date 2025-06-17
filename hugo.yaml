@@ -137,7 +137,7 @@ params:
     title: "Faizatul."
     subtitle: "Junior DBA & Future Data Engineer"
     content: "An aspiring data professional with a software engineering foundation, transitioning from database administration to data analytics and engineering. Passionate about clean code, data-driven solutions, and lifelong learning."
-    image: /images/Pro.jpg
+    image: /images/pro.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -153,6 +153,7 @@ params:
           url: https://github.com/Meowcryspie
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/faizatul-fitri-b71992247
+
   # About
   about:
     enable: true
@@ -346,14 +347,14 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    #btnName: Mail me
-    #btnLink: mailto:faizatulbtm01@gmail.com
-    formspree:
-       enable: true # `contact.email` value will be ignored
-       formId: xvgrrwjd # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-       emailCaption: "Enter your email address"
-       messageCaption: "Enter your message here"
-       messageRows: 5
+    btnName: Mail me
+    btnLink: mailto:faizatulbtm01@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
 
   footer:
     recentPosts:

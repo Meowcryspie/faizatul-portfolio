@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    ul { padding-left: 0; list-style: none; }
+    li { margin-bottom: 2rem; }
+    a { font-size: 1.2rem; font-weight: bold; color: #007acc; text-decoration: none; }
+    p { margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>My WordPress Blog Posts</h1>
+  <div id="blog-posts">Loading...</div>
+
+  <script>
+    const blogContainer = document.getElementById("blog-posts");
+
+    fetch("https://fi3blog.infinityfreeapp.com/wp-json/wp/v2/posts")
+      .then(response => response.json())
+      .then(posts => {
+        if (!posts.length) {
+          blogContainer.innerHTML = "<p>No blog posts found.</p>";
+          return;
+        }
+
+        let html = "<ul>";
+        posts.forEach(post => {
+          html += `
+            <li>
+              <a href="${post.link}" target="_blank">${post.title.rendered}</a>
+              <p>${post.excerpt.rendered}</p>
+            </li>`;
+        });
+        html += "</ul>";
+        blogContainer.innerHTML = html;
+      })
+      .catch(error => {
+        console.error("Error fetching blog posts:", error);
+        blogContainer.innerHTML = "<p>Failed to load posts.</p>";
+      });
+  </script>
+</body>
+</html>
