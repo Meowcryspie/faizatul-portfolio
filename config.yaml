@@ -209,23 +209,6 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Freelance"
-        company: "Maxvec Sdn. Bhd. , Malaysia"
-        companyUrl: "https://www.maxvec.com/"
-        date: "Feb 2025 - Present"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as the sole on-site DBA at Pusat Teknologi Maklumat Tentera Darat, supporting 12+ mission-critical systems; contributed to database design, implementation planning, and technical support during development and maintenance.
-
-          - Led requirement gathering and project presentations with stakeholders from various military units, departments, and branches as the technical point of contact.
-          - Designed ERDs, DFDs, and system workflows using draw.io, and documented system specifications (SRS, database design docs) using Microsoft Word and Excel.
-          - Conducted ETL from legacy systems, performed data cleanup, validation and mapping, and assisted in resolving database-related issues such as data inconsistencies and workflow errors.
-          - Developed inventory management systems database and created low-fidelity UI/UX prototypes using Figma to support system logic and guide front-end development.
-
   # Education
   education:
     enable: true
@@ -314,7 +297,7 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
+      - title: SPAKE
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
         image: /images/projects/converter.jpg
         featured:
@@ -327,7 +310,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
+      - title: SUTERA
         content: A clean and simple Hugo template for personal portfolio and blog.
         image: /images/projects/profile2.jpg
         featured:
@@ -340,6 +323,76 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: TBR
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: IoT
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2 
+
+      - title: UAGMS
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2 
+
+      - title: PowerBi
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2 
+
+      - title: Tableau
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2                                     
 
   #Contact
   contact:
