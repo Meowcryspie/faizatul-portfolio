@@ -318,9 +318,10 @@ params:
         url: https://example.com         
 
   # Skills
-  Skills:
+  skills:
     enable: true
     title: "Technical Skills"
+    menuTitle: "Skills"             # This will be used in navbar only
     items:
       - title: "Programming & Scripting"
         content:
