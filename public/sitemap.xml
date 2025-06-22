@@ -26,10 +26,46 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/dbms/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/_emoji-support/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/emoji-support/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/etl/migrate/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/figma/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/fms/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/iot/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/powerbi/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/spake/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/sutera/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tableau/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tbr/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/uagms/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ui-design/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/placeholder-text/</loc>

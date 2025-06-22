@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DBMS on Portfolio</title>
+    <link>http://localhost:1313/tags/dbms/</link>
+    <description>Recent content in DBMS on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dbms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SPAKE 4.0</title>
+      <link>http://localhost:1313/blogs/spake/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/spake/</guid>
+      <description>&lt;p&gt;Sistem Pengurusan Aset Komunikasi Elektronik Tentera Darat Malaysia :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Due to non-disclosure agreement and sensitive nature of military development, I cant disclose any information other than information that can be found on internet publicaly.&lt;/p&gt;&#xA;&lt;p&gt;As the name mention, this is a development of a system for managing electronic comunnication asset of military. I contributed in design ERDs and architect the database for SPAKE 4.0. I conducted ETL and migrated data from previous version to the new development of system.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

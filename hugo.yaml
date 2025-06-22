@@ -381,8 +381,8 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: Hugo Portfolio
+        content: I use highly customizable and mobile first Hugo template for my personal portfolio and blog, push to my github and hosted on netlify. I also learn to link my wordpress thru API .
         image: /images/projects/profile.png
         featured:
           name: Demo
@@ -396,22 +396,23 @@ params:
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: SPAKE
-        content: Sistem Pengurusan Alat Komunikasi Elektronik 
+      - title: SPAKE 4.0
+        content: I contributed in database development of Sistem Pengurusan Aset Komunikasi Elektronik Tentera Darat 4.0 and design low fidelity UI design using Figma for front-end developement
         image: /images/projects/converter.jpg
         badges:
           - "Database"
-          - "UI Design"
+          - "Low Fidelity UI Design"
+        featured:
+          name: Read More
+          link: "/blogs/spake/"
 
       - title: FMS
-        content: Fleet Management System is a military system for management of vehicle 
+        content: Fleet Management System (FMS) is a system for vehicle management of tentera darat. I contributed in database development of FMS using Dbeaver and design the low fidelity workflow for front-end dev.
         image: /images/projects/converter.jpg
         badges:
           - "Database"
-          - "UI Design"
+          - "Low Fidelity UI Design"
 
 
       - title: SUTERA
