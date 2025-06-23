@@ -517,6 +517,57 @@ header .navbar.animate {
     border-radius: 0.7rem;
 }
 
+/* skills */
+#skills h3 {
+    color: var(--text-secondary-color) !important;
+    font-weight: 600;
+}
+
+#skills .card {
+    cursor: default;
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem !important;
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.1) !important;
+    transition: box-shadow 0.2s linear, opacity 0.2s linear;
+    border: 2px solid transparent !important;
+    padding: 1rem !important;
+    height: 100%;
+}
+
+#skills .card:hover,
+#skills .card:focus {
+    border: 2px solid var(--text-color) !important;
+    transition: 0.3s;
+}
+
+#skills .card-title {
+    color: var(--text-color) !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+#skills .card-text ul {
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+    list-style-type: disc;
+}
+
+#skills .card-text li {
+    color: var(--text-secondary-color);
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+}
+
+#skills {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#skills .row {
+    row-gap: 1.5rem;
+}
+
 /* contact */
 
 #contact h3 {

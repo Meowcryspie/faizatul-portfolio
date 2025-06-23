@@ -27,7 +27,7 @@
         let profileHeaderElem = document.getElementById("profileHeader");
         let currentScrollPos = window.pageYOffset;
         let resetHeaderStyle = false;
-        let showNavBarOnScrollUp = {{ if $showNavBarOnScrollUp }}true{{ else }}false{{ end }};
+        let showNavBarOnScrollUp = {{ $showNavBarOnScrollUp }};
         let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
         if (showNavBar) {
             profileHeaderElem.classList.add("showHeaderOnTop");
@@ -134,7 +134,7 @@
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#skills"
                             aria-label="skills">
-                            {{ .Site.Params.skills.menuTitle | default "Skills" }}
+                            {{ .Site.Params.skills.menuT | default "Skills" }}
                         </a>
                     </li>
                     {{ end }}
