@@ -4,30 +4,22 @@ date: 2021-04-03T22:53:58+05:30
 draft: false
 author: "Faizatul"
 tags:
-  - Emoji support
-  - Sample
-  - example
+  - Outsystems
+
 image: /images/post.jpg
 description: ""
 toc: 
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways. :zap:
+Tool and Budget Request System
 
-## Emoji Support
+## Intro
 
-The [emojify](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+Due to non-disclosure agreement and in-house developement of company, I wont disclose any information other than information that can be found on internet publicaly or non sensitive data only
 
-To enable emoji globally, set ```enableEmoji``` to ```true``` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+I worked as a outsystem developer at Sarawak Energy Berhad in Enteprise Portfolio of IT department, develop an in-house system for the company call Tools and Budget Request System used for requesting tools and budget for sites use.
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
-<hr>
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
 
-```
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-```
+

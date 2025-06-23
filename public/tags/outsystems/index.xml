@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outsystems on Portfolio</title>
+    <link>http://localhost:1313/tags/outsystems/</link>
+    <description>Recent content in Outsystems on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/outsystems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TBR - Outsystems Developer</title>
+      <link>http://localhost:1313/blogs/tbr/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tbr/</guid>
+      <description>&lt;p&gt;Tool and Budget Request System&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Due to non-disclosure agreement and in-house developement of company, I wont disclose any information other than information that can be found on internet publicaly or non sensitive data only&lt;/p&gt;&#xA;&lt;p&gt;I worked as a outsystem developer at Sarawak Energy Berhad in Enteprise Portfolio of IT department, develop an in-house system for the company call Tools and Budget Request System used for requesting tools and budget for sites use.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

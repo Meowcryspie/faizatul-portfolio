@@ -409,7 +409,7 @@ params:
 
       - title: FMS
         content: Fleet Management System (FMS) is a system for vehicle management of tentera darat. I contributed in database development of FMS using Dbeaver and design the low fidelity workflow for front-end dev.
-        image: /images/projects/converter.jpg
+        image: /images/TD Logo.jpg
         badges:
           - "Database"
           - "Low Fidelity UI Design"
@@ -420,7 +420,7 @@ params:
 
       - title: SUTERA
         content: Sistem Pengurusan Rejimen Akar Jurutera Diraja
-        image: /images/projects/profile2.jpg
+        image: /images/TD Logo.jpg
         badges:
           - "Database"
           - "Bootstrap"
@@ -430,8 +430,8 @@ params:
           link: "/blogs/sutera/"
 
       - title: TBR
-        content: Tools and Budget Acquisition System.
-        image: /images/projects/profile2.jpg
+        content: Tools and Budget Request System.
+        image: /images/seb.png
         badges:
           - "Outsystem"
         featured:
@@ -440,7 +440,7 @@ params:
 
       - title: IoT
         content: Automated Height Adjusting Vertical Wind Turbine Using IoT
-        image: /images/projects/profile2.jpg
+        image: /images/iot.png
         badges:
           - "IoT Engineering"
           - "Arduino"
@@ -501,9 +501,9 @@ params:
     socialNetworks:
       github: https://github.com/Meowcryspie
       linkedin: https://www.linkedin.com/in/faizatul-fitri-b71992247
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:

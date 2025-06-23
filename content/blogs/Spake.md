@@ -8,7 +8,7 @@ tags:
   - ETL/Migrate
   - Figma
   - UI Design
-image: /images/TD Logo.jpg
+image: /images/spake.jpg
 description: ""
 toc: 
 ---
