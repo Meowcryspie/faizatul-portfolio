@@ -9,7 +9,14 @@
     <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/etl/migrate/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SPAKE 4.0</title>
+      <title>FMS - DBA</title>
+      <link>http://localhost:1313/blogs/fms/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/fms/</guid>
+      <description>&lt;p&gt;Fleet Management System Tentera Darat. :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Due to non-disclosure agreement and sensitive nature of military development, I cant disclose any information other than information that can be found on internet publicaly.&lt;/p&gt;&#xA;&lt;p&gt;As the name mention, this is a development of a system for managing the fleet asset of tentera darat. I contributed in database architect and design new database and migrate old database to the new database schematic.&lt;/p&gt;&#xA;&lt;p&gt;I worked directly with PUSTEKMA team in gathering requirement and data validation. Rework the workflow for new direction and design low fidelity User Interface for UI/UX developer to developed high fidelity UI.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SPAKE 4.0 - DBA</title>
       <link>http://localhost:1313/blogs/spake/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/blogs/spake/</guid>

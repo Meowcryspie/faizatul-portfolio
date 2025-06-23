@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/testing-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SUTERA</title>
+      <title>SUTERA - DBA</title>
       <link>http://localhost:1313/blogs/sutera/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/blogs/sutera/</guid>
-      <description>&lt;p&gt;Sistem Pengurusan Rejimen Askar Jurutera Diraja :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Due to non-disclosure agreement and sensitive nature of military development, I cant disclose any information other than information that can be found on internet publicaly.&lt;/p&gt;&#xA;&lt;p&gt;As the name mention, this is a development of a system for managing Tentera Darat Engineers. I contributed in database mapping for programmer to correctly present the data on dashboard, reports and register module&lt;/p&gt;&#xA;&lt;p&gt;I work closely adn directly with programmer without delays&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sistem Pengurusan Rejimen Askar Jurutera Diraja :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Due to non-disclosure agreement and sensitive nature of military development, I cant disclose any information other than information that can be found on internet publicaly.&lt;/p&gt;&#xA;&lt;p&gt;As the name mention, this is a development of a system for managing Tentera Darat Engineers. I contributed in database mapping for programmer to correctly present the data on dashboard, reports and register module&lt;/p&gt;&#xA;&lt;p&gt;I work closely and directly with programmer without delays&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

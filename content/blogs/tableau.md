@@ -1,5 +1,5 @@
 ---
-title: "SPAKE 4.0"
+title: "Tableau - Learning Journey"
 date: 2021-04-03T22:53:58+05:30
 draft: false
 author: "Faizatul"
@@ -7,27 +7,27 @@ tags:
   - Emoji support
   - Sample
   - example
-image: /images/post.jpg
+image: /images/tableau.jpg
 description: ""
 toc: 
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways. :zap:
+Tableau - SuperStore Sample Data. :zap:
 
-## Emoji Support
+## Intro
 
-The [emojify](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+This is a sample of tableau data analytic dashboard that im currently in work. Still Updating until I become pro user. I learn thru guided video in youtube and using chatgpt to explain every meaning and set questions to based on data analytic process :
 
-To enable emoji globally, set ```enableEmoji``` to ```true``` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+1.Ask – Define the problem and identify stakeholder needs.
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+2.Prepare – Collect and organize the data.
+
+3.Process – Clean and validate the data.
+
+4.Analyze – Explore the data and identify patterns or trends.
+
+5.Share – Communicate insights through reports or visualizations.
+
+6.Act – Use the insights to make data-driven decisions.
 
 <hr>
-
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-```
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-```

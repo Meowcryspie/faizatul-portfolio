@@ -441,9 +441,6 @@ params:
       - title: IoT
         content: Automated Height Adjusting Vertical Wind Turbine Using IoT
         image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
         badges:
           - "IoT Engineering"
           - "Arduino"
@@ -462,8 +459,8 @@ params:
           link: "/blogs/uagms/"
 
       - title: PowerBi
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/tableau.jpg
+        content: My expereience in creating dashboard and exploring data to find hidden stories about the shampoo and whitener buyer demographic during my coursework study.
+        image: /images/shampoo.jpg
         featured:
           name: Read More
           link: "/blogs/powerbi/"
@@ -472,8 +469,8 @@ params:
           - "RapidMiner"
 
       - title: Tableau
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+        content: My personal data analytical project using Tableau. Read More for my learning journey (on going)  
+        image: /images/tableau.jpg
         featured:
           name: Read More
           link: "/blogs/tableau/"

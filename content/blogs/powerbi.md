@@ -6,7 +6,7 @@ author: "Faizatul"
 tags:
   - PowerBi
   - Data Analytics
-image: /images/post.jpg
+image: images/shampoo.jpg
 description: ""
 toc: 
 ---
