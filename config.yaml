@@ -399,7 +399,7 @@ params:
 
       - title: SPAKE 4.0
         content: I contributed in database development of Sistem Pengurusan Aset Komunikasi Elektronik Tentera Darat 4.0 and design low fidelity UI design using Figma for front-end developement
-        image: /images/projects/converter.jpg
+        image: /images/TD Logo.jpg
         badges:
           - "Database"
           - "Low Fidelity UI Design"
@@ -413,6 +413,9 @@ params:
         badges:
           - "Database"
           - "Low Fidelity UI Design"
+        featured:
+          name: Read More
+          link: "/blogs/spake/"    
 
 
       - title: SUTERA
@@ -422,21 +425,18 @@ params:
           - "Database"
           - "Bootstrap"
           - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+        featured:
+          name: Read More
+          link: "/blogs/sutera/"
 
       - title: TBR
         content: Tools and Budget Acquisition System.
         image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
         badges:
           - "Outsystem"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+        featured:
+          name: Read More
+          link: "/blogs/tbr/"
 
       - title: IoT
         content: Automated Height Adjusting Vertical Wind Turbine Using IoT
@@ -447,47 +447,38 @@ params:
         badges:
           - "IoT Engineering"
           - "Arduino"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2 
+        featured:
+          name: Read More
+          link: "/blogs/iot/"
 
       - title: UAGMS
         content: Ultimate Athletic Gym Management System
         image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
         badges:
           - "PHP"
           - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2 
+        featured:
+          name: Read More
+          link: "/blogs/uagms/"
 
       - title: PowerBi
         content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+        image: /images/tableau.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Read More
+          link: "/blogs/powerbi/"
         badges:
           - "PowerBi"
           - "RapidMiner"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2 
 
       - title: Tableau
         content: A clean and simple Hugo template for personal portfolio and blog.
         image: /images/projects/profile2.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Read More
+          link: "/blogs/tableau/"
         badges:
           - "Tableau"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2 
 
   #Contact
   contact:

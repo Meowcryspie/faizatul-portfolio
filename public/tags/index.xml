@@ -30,6 +30,20 @@
       <description></description>
     </item>
     <item>
+      <title>Data Validation</title>
+      <link>http://localhost:1313/tags/data-validation/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/data-validation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Db Mapping</title>
+      <link>http://localhost:1313/tags/db-mapping/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/db-mapping/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>DBMS</title>
       <link>http://localhost:1313/tags/dbms/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
@@ -55,6 +69,13 @@
       <link>http://localhost:1313/tags/figma/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/tags/figma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing Data</title>
+      <link>http://localhost:1313/tags/testing-data/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/testing-data/</guid>
       <description></description>
     </item>
     <item>

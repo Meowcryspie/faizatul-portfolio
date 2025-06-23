@@ -1,33 +1,24 @@
 ---
-title: "SPAKE 4.0"
+title: "SUTERA"
 date: 2021-04-03T22:53:58+05:30
 draft: false
 author: "Faizatul"
 tags:
-  - Emoji support
-  - Sample
-  - example
-image: /images/post.jpg
+  - Db mapping
+  - testing data
+  - data validation
+image: /images/TD Logo.jpg
 description: ""
 toc: 
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways. :zap:
+Sistem Pengurusan Rejimen Askar Jurutera Diraja :zap:
 
-## Emoji Support
+## Intro
 
-The [emojify](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+Due to non-disclosure agreement and sensitive nature of military development, I cant disclose any information other than information that can be found on internet publicaly.
 
-To enable emoji globally, set ```enableEmoji``` to ```true``` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+As the name mention, this is a development of a system for managing Tentera Darat Engineers. I contributed in database mapping for programmer to correctly present the data on dashboard, reports and register module
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+I work closely adn directly with programmer without delays
 
-<hr>
-
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-```
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-```
