@@ -467,6 +467,9 @@ params:
         featured:
           name: Read More
           link: "/blogs/uagms/"
+        featured2:
+          name: Demo
+          link: https://uagms.infinityfreeapp.com/
 
       - title: PowerBi
         content: My expereience in creating dashboard and exploring data to find hidden stories about the shampoo and whitener buyer demographic during my coursework study.
