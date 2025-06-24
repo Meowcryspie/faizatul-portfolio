@@ -136,17 +136,18 @@ params:
     intro: "Hi, my name is"
     title: "Faizatul."
     subtitle: "Junior DBA & Future Data Engineer"
-    content: "An aspiring data professional with a software engineering foundation, transitioning from database administration to data analytics and engineering. Passionate about clean code, data-driven solutions, and lifelong learning."
+    content: "An aspiring data professional with a software engineering foundation, transitioning from database administration to data analytics and data engineering. Passionate about clean code, data-driven solutions, and lifelong learning."
     image: /images/convo.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      name: "Resume ATS"
+      url: /files/FaizatulFitri_Resume.pdf
+      download: false
+      newPage: true
+
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -160,7 +161,7 @@ params:
     title: "About Me"
     image: /images/pro.jpg
     content: |-
-       I’m a passionate tech enthusiast currently working as a Junior Database Administrator while building the foundation to transition into a Data Analyst and ultimately a Data Engineer or Scientist.
+       I’m a passionate tech enthusiast currently working as a Junior Database Administrator while building the foundation to transition into a Data Analyst and ultimately a Data Engineer or Scientist or AI engineer.
        With a background in Software Engineering and experience in database systems, scripting, and analytics tools, I blend logic and creativity to solve problems and build data-focused solutions.
        
        I am currently working on a project that will be used to help military #DemiNegara.
@@ -170,7 +171,9 @@ params:
       items:
         - "Mariadb + Dbeaver"
         - "Hyper-V"
-        - "php"
+        - "PHP"
+        - "HTML + CSS"
+        - "Tableau"
 
   # Experience
   experience:
@@ -293,7 +296,7 @@ params:
         url: https://www.credly.com/badges/52ee4db1-b0b2-424d-961a-f18a742381f0/public_url
         image: /images/cert/cloud.png
       - title: Alibaba ACP Cloud Computing Certified Associate (2024)
-        content: Validates level 2 skills in Alibaba Cloud architecture, computing, and storage services 
+        content: Validates level 2 skills in Alibaba Cloud architecture, computing, and storage services
         image: /images/cert/alibaba.png
       - title: Google Professional Data Analytics Certificate
         content: Covers data analysis, SQL, R, spreadsheets, Tableau, and data storytelling.
@@ -302,26 +305,26 @@ params:
       - title: Google Professional Cybersecurity Certificate
         content: Covers threat detection, SIEM, IDS, Python for cybersecurity, and risk mitigation.
         image: /images/cert/cyber.png
-        url: https://coursera.org/share/45f4e848bcd3e862e942d544a25c06a6
+        url: https://coursera.org/share/1b4ce6f11195d6cbce2987bc16bbc684
       - title: Google Professional IT Support Certificate
         content: Foundational IT support skills such as troubleshooting, system admin, networking, OS.
-        url: https://example.com
+        url: https://coursera.org/share/45f4e848bcd3e862e942d544a25c06a6
         image: /images/cert/itsup.png
       - title: Scrum Fundamentals Certificate
         content: Foundation-level Scrum certification covering Agile principles and Scrum practices. Have most experience in scrum was during internship
-        url: https://example.com 
+        url: https://www.scrumstudy.com/certification/verify?type=SFC&number=1032889
         image: /images/cert/scrum.png
       - title: RapidMiner Professional Machine Learning
         content: Covers classification, clustering, scoring, regression, validation, and rules.
-        url: https://example.com
+        url: https://openbadgepassport.com/app/badge/info/812058
         image: /images/cert/rapid3.png  
       - title: RapidMiner Professional Data Engineering Certificate
         content: Focused on pivot tables, data access, transformations, and routines.
-        url: https://example.com
+        url: https://openbadgepassport.com/app/badge/info/812053
         image: /images/cert/rapid2.png   
       - title: RapidMiner Professional Application & Use Case Certificate
         content: Topics include CRISP-DM, modeling, data science use cases, visualization.
-        url: https://example.com
+        url: https://openbadgepassport.com/app/badge/info/812059
         image: /images/cert/rapid1.png          
 
   # Skills

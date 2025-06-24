@@ -136,17 +136,18 @@ params:
     intro: "Hi, my name is"
     title: "Faizatul."
     subtitle: "Junior DBA & Future Data Engineer"
-    content: "An aspiring data professional with a software engineering foundation, transitioning from database administration to data analytics and engineering. Passionate about clean code, data-driven solutions, and lifelong learning."
+    content: "An aspiring data professional with a software engineering foundation, transitioning from database administration to data analytics and data engineering. Passionate about clean code, data-driven solutions, and lifelong learning."
     image: /images/convo.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      name: "Resume ATS"
+      url: /files/FaizatulFitri_Resume.pdf
+      download: false
+      newPage: true
+
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -160,7 +161,7 @@ params:
     title: "About Me"
     image: /images/pro.jpg
     content: |-
-       I’m a passionate tech enthusiast currently working as a Junior Database Administrator while building the foundation to transition into a Data Analyst and ultimately a Data Engineer or Scientist.
+       I’m a passionate tech enthusiast currently working as a Junior Database Administrator while building the foundation to transition into a Data Analyst and ultimately a Data Engineer or Scientist or AI engineer.
        With a background in Software Engineering and experience in database systems, scripting, and analytics tools, I blend logic and creativity to solve problems and build data-focused solutions.
        
        I am currently working on a project that will be used to help military #DemiNegara.
@@ -170,7 +171,9 @@ params:
       items:
         - "Mariadb + Dbeaver"
         - "Hyper-V"
-        - "php"
+        - "PHP"
+        - "HTML + CSS"
+        - "Tableau"
 
   # Experience
   experience:
