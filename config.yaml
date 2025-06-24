@@ -425,7 +425,7 @@ params:
           - "Low Fidelity UI Design"
         featured:
           name: Read More
-          link: "/blogs/spake/"    
+          link: "/blogs/fms/"    
 
 
       - title: SUTERA
@@ -450,7 +450,7 @@ params:
 
       - title: IoT
         content: Automated Height Adjusting Vertical Wind Turbine Using IoT
-        image: /images/iot.png
+        image: /images/sdg7.jpg
         badges:
           - "IoT Engineering"
           - "Arduino"
