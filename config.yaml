@@ -144,7 +144,7 @@ params:
     button:
       enable: true
       name: "Resume ATS"
-      url: files/FaizatulFitri_Resume.pdf
+      url:  https://faizatul-portfolio.netlify.app/files/FaizatulFitri_Resume.pdf
       download: false
       newPage: true
 
