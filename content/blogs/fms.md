@@ -7,7 +7,7 @@ tags:
   - Database Architect
   - ETL/Migrate
   - Versioning
-image: /images/post.jpg
+image: /images/fmstd.png
 description: ""
 toc: 
 ---

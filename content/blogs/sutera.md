@@ -1,5 +1,5 @@
 ---
-title: "SUTERA - DBA"
+title: "SUTERA 3.0 - DBA"
 date: 2021-04-03T22:53:58+05:30
 draft: false
 author: "Faizatul"
@@ -7,7 +7,7 @@ tags:
   - Db mapping
   - testing data
   - data validation
-image: /images/TD Logo.jpg
+image: /images/sutera.png
 description: ""
 toc: 
 ---

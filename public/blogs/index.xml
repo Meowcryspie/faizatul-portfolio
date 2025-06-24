@@ -51,7 +51,7 @@
       <description>&lt;p&gt;Sistem Pengurusan Aset Komunikasi Elektronik Tentera Darat Malaysia :zap:&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Due to non-disclosure agreement and sensitive nature of military development, I cant disclose any information other than information that can be found on internet publicaly.&lt;/p&gt;&#xA;&lt;p&gt;As the name mention, this is a development of a system for managing electronic comunnication asset of military. I contributed in design ERDs and architect the database for SPAKE 4.0. I conducted ETL and migrated data from previous version to the new development of system.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>SUTERA - DBA</title>
+      <title>SUTERA 3.0 - DBA</title>
       <link>http://localhost:1313/blogs/sutera/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/blogs/sutera/</guid>

@@ -7,7 +7,7 @@ tags:
   - IoT Engineering
   - Arduino IDE
   - SDG Goal 7
-image: /images/post.jpg
+image: /images/iot.png
 description: ""
 toc: 
 ---
