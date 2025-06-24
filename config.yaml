@@ -310,19 +310,19 @@ params:
       - title: Scrum Fundamentals Certificate
         content: Foundation-level Scrum certification covering Agile principles and Scrum practices. Have most experience in scrum was during internship
         url: https://example.com 
-        image: /images/projects/scrum.png
+        image: /images/cert/scrum.png
       - title: RapidMiner Professional Machine Learning
         content: Covers classification, clustering, scoring, regression, validation, and rules.
         url: https://example.com
-        image: /images/projects/rapid3.png  
+        image: /images/cert/rapid3.png  
       - title: RapidMiner Professional Data Engineering Certificate
         content: Focused on pivot tables, data access, transformations, and routines.
         url: https://example.com
-        image: /images/projects/rapid2.png   
+        image: /images/cert/rapid2.png   
       - title: RapidMiner Professional Application & Use Case Certificate
         content: Topics include CRISP-DM, modeling, data science use cases, visualization.
         url: https://example.com
-        image: /images/projects/rapid1.png          
+        image: /images/cert/rapid1.png          
 
   # Skills
   skills:
