@@ -488,6 +488,7 @@ header .navbar.animate {
     /* transform: translate3d(0, 0, 0); */
     transition: box-shadow .2s linear,opacity .2s linear;
     border: 2px solid transparent;
+    overflow: hidden; /* prevent image from spilling out */
 }
 
 #achievements a.card {
@@ -517,6 +518,35 @@ header .navbar.animate {
     border-radius: 0.7rem;
 }
 
+#achievements .card:hover .card-img-top {
+    transform: scale(1.2);
+    transition: all 0.3s ease-out;
+}
+#achievements .card-head {
+    overflow: hidden;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    max-height: 200px; /* Optional: adjust if your image is too tall */
+}
+
+#achievements .card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+}
+
+#achievements .card:hover .card-img-top {
+    transform: scale(1.2);
+}
+
+#achievements .card:hover {
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-out;
+    transform: translateY(-5px);
+}
+
 /* skills */
 #skills h3 {
     color: var(--text-secondary-color) !important;
@@ -539,6 +569,7 @@ header .navbar.animate {
     border: 2px solid var(--text-color) !important;
     transition: 0.3s;
 }
+
 
 #skills .card-title {
     color: var(--text-color) !important;
