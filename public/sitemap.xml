@@ -26,6 +26,9 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/arduino-ide/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/data-analytics/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
@@ -62,6 +65,9 @@
     <loc>http://localhost:1313/blogs/iot/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/iot-engineering/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
@@ -78,6 +84,9 @@
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/qa-testing/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sdg-goal-7/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/spake/</loc>

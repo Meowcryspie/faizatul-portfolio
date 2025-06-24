@@ -289,33 +289,40 @@ params:
     title: "Certifications"
     items:
       - title: CompTIA Cloud Essentials+ (2024)
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
+        content: Covers core cloud computing concepts, architecture, governance, and operations.
+        url: https://www.credly.com/badges/52ee4db1-b0b2-424d-961a-f18a742381f0/public_url
+        image: /images/cert/cloud.png
       - title: Alibaba ACP Cloud Computing Certified Associate (2024)
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
+        content: Validates level 2 skills in Alibaba Cloud architecture, computing, and storage services 
+        image: /images/cert/alibaba.png
       - title: Google Professional Data Analytics Certificate
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
+        content: Covers data analysis, SQL, R, spreadsheets, Tableau, and data storytelling.
+        url: https://coursera.org/share/99e4d494990acffa7ab9b96f786440df
+        image: /images/cert/googledata.png
       - title: Google Professional Cybersecurity Certificate
-        content: We are developed a product which can help others.
+        content: Covers threat detection, SIEM, IDS, Python for cybersecurity, and risk mitigation.
+        image: /images/cert/cyber.png
+        url: https://coursera.org/share/45f4e848bcd3e862e942d544a25c06a6
       - title: Google Professional IT Support Certificate
-        content: Contributed to a open source project.
+        content: Foundational IT support skills such as troubleshooting, system admin, networking, OS.
         url: https://example.com
+        image: /images/cert/itsup.png
       - title: Scrum Fundamentals Certificate
-        content: Contributed to a open source project.
+        content: Foundation-level Scrum certification covering Agile principles and Scrum practices. Have most experience in scrum was during internship
         url: https://example.com 
+        image: /images/projects/scrum.png
       - title: RapidMiner Professional Machine Learning
-        content: Contributed to a open source project.
-        url: https://example.com  
+        content: Covers classification, clustering, scoring, regression, validation, and rules.
+        url: https://example.com
+        image: /images/projects/rapid3.png  
       - title: RapidMiner Professional Data Engineering Certificate
-        content: Contributed to a open source project.
-        url: https://example.com  
+        content: Focused on pivot tables, data access, transformations, and routines.
+        url: https://example.com
+        image: /images/projects/rapid2.png   
       - title: RapidMiner Professional Application & Use Case Certificate
-        content: Contributed to a open source project.
-        url: https://example.com         
+        content: Topics include CRISP-DM, modeling, data science use cases, visualization.
+        url: https://example.com
+        image: /images/projects/rapid1.png          
 
   # Skills
   skills:
